@@ -1,0 +1,66 @@
+[alias]
+    a = add
+    au = add -u
+    aa = add -A
+    ap = add -p
+    an = add -N
+
+    fo = fetch origin
+    fu = fetch upstream
+
+    co = checkout
+    com = checkout master
+    cob = checkout -b
+    cobm = checkout -b master
+    cof = checkout --
+    coc = checkout -- .
+
+    ll = log --oneline --graph --decorate
+    ld = log --oneline --graph --decorate -p
+    lf = log --pretty=fuller
+
+    ss = status
+
+    rom = rebase master
+    ri = rebase -i
+    rir = rebase -i --root
+    rc = rebase --continue
+    ra = rebase --abort
+
+    cc = commit
+    cm = commit -m
+    cmfm = "commit -m 'fixup'"
+    cmf = "commit --fixup"
+    cmi = "commit -m 'Initial commit'"
+    ca = commit --amend
+
+    res = reset --soft
+    rem = reset
+    reh = reset --hard
+    reh1 = reset HEAD~1
+    rehh1 = reset --hard HEAD~1
+    rehh = reset --hard HEAD
+
+    dd = diff
+    dc = diff --cached
+    dh = diff HEAD~1
+
+    pfo = push --force origin
+    pfu = push --force upstream
+    pom = push origin master
+    pum = push upstream master
+
+    cl = clone
+    clr = clone --recursive
+
+    cp = cherry-pick
+
+    mff = merge --ff
+    mnf = merge --no-ff
+
+    bd = branch -D
+
+    amd = am --committer-date-is-author-date
+
+    dt = diff-tree --no-commit-id --name-only -r
+    dth = diff-tree --no-commit-id --name-only -r HEAD
