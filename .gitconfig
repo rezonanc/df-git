@@ -2,3 +2,4 @@
     path = ~/.config/git/user
     path = ~/.config/git/core
     path = ~/.config/git/alias
+    path = ~/.config/git/pager
